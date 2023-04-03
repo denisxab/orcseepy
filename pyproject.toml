@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "orcseepy"
+version = "0.1.0"
+description = ""
+authors = ["Denis Kustov <pro-progerkustov@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytesseract = "^0.3.10"
+opencv-python-headless = "^4.7.0.72"
+opencv-python = "^4.7.0.72"
+langdetect = "^1.0.9"
+numpy = "^1.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
